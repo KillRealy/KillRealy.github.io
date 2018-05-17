@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>player</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+
+
+
+	<div id="bgrnd">
+	<img src="img/bg.jpg">
+	</div>
+
+<div class="main">
+
+<div id="images">
+	<img src="img/1.jpg">
+</div>
+
+	<div class="player">
+
+		<div id="strSong">Ready</div>
+		<div id="btns">
+		<button id="prev" onclick="prevSong()"><img src="img/prev.png" height="85%" width="85%"></button>
+		<button id="song" onclick="songPlay ()"><img src="img/play.png" height="85%" width="85%"></button>
+		<button id="pause" onclick="songPause ()"><img src="img/pause.png" height="85%" width="85%"></button>
+		<button id="next" onclick="nextSong()"><img src="img/next.png" height="85%" width="85%"></button>	
+		</div>
+
+		<div id="progBar">
+			<div id="fill"></div>
+			<div id="handle"></div>
+
+		</div>
+
+		<div id="timer">00:00 / 00:00</div>
+
+		
+
+	</div>
+	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</body>
+</html>

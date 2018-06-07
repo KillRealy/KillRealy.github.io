@@ -1,0 +1,431 @@
+*{
+font-size: 16px;
+
+
+
+}
+
+body{
+margin: 0;
+padding: 0;
+background-size: cover;
+background:url(img/bg.jpg) 100% 100% no-repeat;
+background-size: cover;
+
+
+
+ 
+
+
+
+}
+
+#main{
+max-width:100%;
+box-sizing: border-box;
+height: 100%;
+}
+
+header{
+max-width:100%;
+background-color:white;
+height:120px; 
+opacity: 0.9;
+position:relative;
+overflow: hidden;
+
+
+
+
+}
+
+h4 {
+left:50px;
+top:-10px;
+position:absolute;
+color:#87188b;
+font-size: 30px;
+font-family: Bernard MT Condensed,sans-serif; 
+cursor: pointer;
+
+
+}
+h5{
+cursor: pointer;
+position:absolute;
+left:90px;
+top:10px;
+font-size: 30px;
+top: -3px;
+}
+
+
+
+
+
+
+
+    
+  nav{
+  	margin-top:0px;
+  	margin-left:75%; 
+  }  
+   
+	
+
+
+#topNav a {
+
+	color: grey;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+
+
+
+
+
+	
+
+	
+	
+}
+
+#contact {
+
+background: red;
+border-radius: 5px;	
+margin-top: 37px;
+width: 80px; 
+height:22px;
+color: white;
+border: 1px solid red;
+font-size: 14px;
+cursor: pointer;
+
+
+}
+
+
+
+h1{
+
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	display: flex;
+	margin-left:22%;
+}
+
+#btn{
+
+width: 20%;
+min-width: 100px;
+height: 70px;
+background: #ee13ee;
+border: 1px solid	#ee13ee;
+margin-left:42%;
+border-radius: 20px;
+font-size: 24px;
+color: white;
+cursor: pointer;
+
+}
+
+
+#btn:focus{
+  outline: 0;
+}
+#slider{
+    left:39.5%;
+    top:502px; 
+    height: 308px;
+    position:absolute;
+
+    
+    
+   
+}
+
+
+#carousel{
+background: grey;
+width:100%;
+opacity: 0.2;
+height: 308px;
+top: 502px;
+position:absolute;
+
+
+
+}
+
+.info{
+	width: 100%;
+	height: 750px;
+	background: white;
+	top: 220px;
+	margin-top: 30px;
+	
+}
+
+#prev::after {
+    content: "<";
+    position:absolute;
+    top: 125px;
+    left:-12%;
+   
+    background-color: #000;
+    height: 40px;
+    width:20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transform: translateY(70%);
+    line-height: 15px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-left: 2px;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.5s;
+    color: white;
+    overflow: hidden;
+    
+}
+
+
+#next::after {
+    content: ">";
+    position:absolute;
+    top: 125px;
+    right:-11%;
+    background-color: #000;
+    height: 40px;
+    width: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transform: translateY(70%);
+    line-height: 15px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-right:2px;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.5s;
+    color: white;
+    overflow: hidden;
+
+    
+}
+
+#carousel:hover{
+
+	opacity: 0.35;
+}
+
+h2{
+
+	font-size:24px;
+	text-align: center;
+	transform: translate(0%,70%);
+	left:20%;
+	
+
+}
+h3{
+	font-size: 30px;
+	text-align: center;
+	margin-top:-120px;
+	
+	
+
+}
+
+#footer {
+	width: 100%;
+	height:50px;
+	background: #4d4e52;
+	position:absolute;
+	
+	top: 1010px;
+	
+
+}
+
+p{
+text-align: center;
+font-size: 12px;
+color:grey;
+
+
+}
+
+
+#slider img {
+	width: 384px;
+	position:relative;
+	overflow: hidden;
+}
+
+@media  screen and (max-width:1400px) {
+
+h4,h5{
+
+	font-size: 22px;
+	top:20px;
+}
+
+nav{
+	margin-left:65%;
+}
+
+
+
+
+
+nav{
+	width: 100%;
+}
+h2{
+font-size:18px; 	
+}	
+	
+}
+
+
+
+@media  screen and (max-width:980px) {
+
+nav{
+	margin-left:55%;
+}
+
+h4,h5{
+
+	font-size: 20px;
+	top:20px;
+}
+
+h2{
+font-size:16px; 	
+}
+
+h1{
+	font-size: 20px;
+}
+
+
+nav{
+	width: 100%;
+}
+	
+}
+@media  screen and (max-width:760px) {
+
+nav{
+	margin-left:40%;
+}
+
+h4,h5{
+
+	font-size: 19px;
+	top:20px;
+}
+
+h1{
+	font-size: 17px;
+}
+
+nav{
+	width: 100%;
+}
+
+h2{
+font-size:13px; 	
+}	
+
+
+	
+}
+
+@media  screen and (max-width:550px) {
+
+nav{
+	margin-left:20%;
+}
+
+h1{
+	font-size: 14px;
+	left:25%;
+}
+h4,h5{
+
+	font-size:17px;
+	top:20px;
+}
+nav{
+	width: 100%;
+}
+
+h2{
+font-size:10px; 	
+
+}
+
+@media  screen and (max-width:1800px) {
+
+
+
+#slider{
+
+	left:35%;
+}
+
+
+}
+
+
+@media  screen and (max-width:1200px) {
+
+
+
+#slider{
+
+	left:20%;
+}
+
+
+}
+
+
+@media  screen and (max-width:680px) {
+
+
+
+#slider{
+
+	left:15%;
+}
+
+#btn{
+	left:18%;
+	font-size:14px;
+}
+}
+
+@media  screen and (max-width:600px) {
+
+
+
+#slider{
+
+	left:10%;
+}
+#btn{
+	left:15%;
+	font-size:12px;
+}
+
+}
